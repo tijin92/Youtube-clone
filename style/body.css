@@ -1,0 +1,120 @@
+body{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Roboto','Arial';
+    
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.body_section{
+    padding-top: 145px;
+    padding-left: 120px;
+    margin-right: 40px;
+}
+.video_grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    row-gap: 40px;
+    column-gap: 20px; 
+}
+
+.video_tumpnail{
+    margin-bottom: 10px;
+}
+.video_image_preview{
+    width: 100%;
+    border-radius: 10px;
+    transition: border-radius 0.25s;
+}
+.video_image_preview:hover{
+    border-radius: 0px;
+}
+.profile_pics_and_details{
+    display: grid;
+    grid-template-columns: 38px 1fr ;
+    column-gap: 8px;
+}
+.profile_pic{
+    border-radius: 50px;
+}
+.author_pic{
+    width: 100%;
+    border-radius: 50px;
+} 
+.profile_details{
+    font-size: 14px;
+    
+}
+.verified{
+    width: 8px;
+    height: 8px;
+    background-color: rgb(96, 96, 96);
+    color: white;
+    border-radius: 10px;
+    font-size: 8px;
+    margin-left: 8px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+.video_title{
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 20px;
+}
+.author_account, .author_status{
+    color: rgb(96, 96, 96);
+    margin-top: 12px;
+    display: flex;
+}
+.author_status{
+    margin-top: 06px;
+}
+
+
+/*Left bar*/
+
+.left_bar{
+    width: 70px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    left: 0px;
+    top: 55px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    
+}
+.home, .shorts, .subscriptions, .library{
+    width: 25px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+.home img,
+.shorts img,
+.subscriptions img,
+.library img{
+    width: 25px;
+    margin-bottom: 8px;
+}
+.home:hover, .shorts:hover, .subscriptions:hover, .library:hover{
+    background-color: rgb(237, 237, 237);
+}
+
+
+
